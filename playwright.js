@@ -27,9 +27,8 @@ function clearUrl(url) {
   await page.goto(siteUrl, { waitUntil: "networkidle" });
 
   // Ждём 5 секунд
-  await page.waitForTimeout(5000);
+  await page.waitForTimeout(8000);
+  await browser.close();
 
   console.log(`Видео сайта — ${clearUrl(siteUrl)} — успешно сохранено!`);
-
-  await browser.close();
 })();

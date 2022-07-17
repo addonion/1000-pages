@@ -8,10 +8,7 @@
   },
   "author": "addonion <addonion@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "puppeteer": "^15.3.2",
-    "puppeteer-screen-recorder": "^2.0.2"
-  },
+  "dependencies": {},
   "description": "yarn - для установки пакетов",
   "bugs": {
     "url": "https://github.com/addonion/1000-pages/issues"
