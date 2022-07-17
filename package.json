@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/addonion/1000-pages#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "go": "node playwright.js"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "playwright": "^1.23.4",
+    "playwright-video": "^2.4.0"
+  }
 }
