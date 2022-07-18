@@ -25,7 +25,8 @@ function clearUrl(url) {
 
   // Заходим на страницу и ждём загрузки
   await page.goto(siteUrl, { waitUntil: "networkidle" });
-
+  await page.waitForTimeout(2000);
+  await page.locator("#icon-container").click();
   // Ждём 5 секунд
   await page.waitForTimeout(8000);
   await browser.close();
