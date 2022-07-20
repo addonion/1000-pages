@@ -8,7 +8,9 @@
   },
   "author": "addonion <addonion@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "google-spreadsheet": "^3.3.0"
+  },
   "description": "yarn - для установки пакетов",
   "bugs": {
     "url": "https://github.com/addonion/1000-pages/issues"
