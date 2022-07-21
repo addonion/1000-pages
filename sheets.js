@@ -14,21 +14,9 @@ const doc = new GoogleSpreadsheet("1m4ztxgzrTEKydp-1VnmjYQ2hb6DerfANeefA8mnpZGo"
   });
 
   await doc.loadInfo();
+  console.log(doc.title);
 
   const sheet = doc.sheetsByIndex[0]; // or use doc.sheetsById[id] or doc.sheetsByTitle[title]
   console.log(sheet.title);
 
-  //const rows = await sheet.getRows();
-  //const arr = [];
-
-  //rows.array.forEach(element => {
-  //let row = new Object(
-  //siteUrl = element[0],
-  //title = element[1],
-  //description = element[2]
-  //)
-  //arr.push(row);
-  //});
-
-  //return arr;
 })();
