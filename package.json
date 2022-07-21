@@ -9,7 +9,8 @@
   "author": "addonion <addonion@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "google-spreadsheet": "^3.3.0"
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^39.2.0"
   },
   "description": "yarn - для установки пакетов",
   "bugs": {
