@@ -36,9 +36,16 @@ async function gsrun(cl) {
     }
 
     let data = await gsapi.spreadsheets.values.get(opt);
-    console.log(data.data.values);
+    let dataArray = data.data.values;
 
-    //30.25
+    let newDataArray = dataArray.map(function(r){
+        r.push(r[0] + '-' + r[1]);
+        return r;
+    });
+
+    console.log(newDataArray);
+
+    //40.17
 }
 
 gsrun(client);
